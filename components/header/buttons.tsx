@@ -26,7 +26,7 @@ export default function HeaderButtons() {
         <div className="flex gap-6">
             {arrButtonsLogged.map((button) => (
                 <Link key={button.href ?? button.title} href={button.href ?? "#"}>
-                    <button type="button" className="flex justify-center gap-2 min-w-26 border-1 rounded-xl p-2 bg-gray-500 hover:cursor-pointer hover:bg-gray-600 hover:delay-75">{button.icon} {button.title}</button>
+                    <button type="button" className="flex justify-center gap-2 min-w-26 border-1 rounded-xl p-2 bg-gray-600 hover:cursor-pointer hover:scale-110 hover:bg-gray-700 transition-transform duration-300 ease-in-out">{button.icon} {button.title}</button>
                 </Link>
             ))}
         </div>

@@ -12,7 +12,7 @@ Boxd é um projeto de estudo de um amante de livros. Com ele, você pode criar l
 
 🔍 Descoberta de Novos Livros: Explore listas de outros usuários e descubra novas leituras.
 
-🛠️ Tecnologias Que Pretendo Utilizadas
+🛠️ Tecnologias Que Pretendo Utilizar
 
 Frontend: Next, React, TypeScript, TailwindCSS
 
